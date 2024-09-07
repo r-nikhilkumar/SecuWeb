@@ -25,7 +25,7 @@ interface DnsRecord {
     type: string;
 }
 
-interface SecurityCheckResult {
+export interface SecurityCheckResult {
     sslResult: { sslStatus: string };
     xssResult: { error: string };
     headersResult: { contentSecurityPolicy: string; xFrameOptions: string; strictTransportSecurity: string };
@@ -177,7 +177,7 @@ const SecurityCheckModal: React.FC<SecurityCheckModalProps> = ({ show, onHide, s
     };
 
     return (
-        <Modal show={show} onHide={onHide} centered>
+        <Modal show={show} onHide={onHide} centered style={{width:"100%"}}>
             <Modal.Header closeButton>
                 <Modal.Title>Security Check Results</Modal.Title>
             </Modal.Header>

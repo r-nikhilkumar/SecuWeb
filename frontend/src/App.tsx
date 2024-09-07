@@ -1,5 +1,6 @@
-import SecurityCheck from './components/securityCheck/SecurityCheck'
+import SecurityCheck from './pages/securityCheck/SecurityCheck'
 import './App.css'
+
 
 function App() {
 
