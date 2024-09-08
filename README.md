@@ -9,10 +9,11 @@ A comprehensive **Website Security Checker** that analyzes URLs in real-time to 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Demo](#demo)
+- [API Endpoint](#apiendpoint)
 
 ## Features
 
-- **Real-Time Security Checks:** Analyze website security by fetching data from the backend and performing security checks in real-time.
+- **Real-Time Security Checks:** Analyze website security by fetching data from the backend and performing security checks in real-time using websocket.
 - **Visualized Security Scores:** Circular progress bars display security scores and thresholds (color-coded for easy interpretation).
 - **Detailed Security Report:** A step-by-step breakdown of the checks performed, highlighting issues in real time.
 - **Progress Indicators:** Shows which checks are completed and which are still in progress.
@@ -81,4 +82,7 @@ A comprehensive **Website Security Checker** that analyzes URLs in real-time to 
 ![Screenshot (261)](https://github.com/user-attachments/assets/9d66480e-f254-4bf8-90e0-4a92d21d176f)
 or
 visit [Link](https://secuweb.vercel.app/)
+
+### API Endpoint:
+[API](https://secuwebapi.onrender.com)
 
