@@ -32,6 +32,7 @@ A comprehensive **Website Security Checker** that analyzes URLs in real-time to 
   - Node.js / Django
   - RESTful API
   - Real-time data fetching
+  - WebSocket
 
 - **Other Technologies:**
   - Circular progress indicators
