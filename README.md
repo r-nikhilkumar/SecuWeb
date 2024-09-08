@@ -27,6 +27,7 @@ A comprehensive **Website Security Checker** that analyzes URLs in real-time to 
   - React
   - Redux
   - CSS/SCSS for styling
+  - WebSocket
 
 - **Backend:**
   - Node.js / Django
