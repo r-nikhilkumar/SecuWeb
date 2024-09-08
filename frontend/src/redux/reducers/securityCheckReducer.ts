@@ -6,8 +6,6 @@ import {
   resetSecurityCheck,
 } from "../actions/securityCheckActions";
 import { SecurityCheckState } from "../../types/securityCheckTypes";
-import SecurityCheckModal from "../../components/SecurityCheckModal";
-import { SecurityCheckResult } from "../../components/SecurityCheckModal";
 
 const initialState: SecurityCheckState = {
   steps: [],
