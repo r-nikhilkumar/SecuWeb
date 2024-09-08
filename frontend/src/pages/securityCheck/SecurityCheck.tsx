@@ -8,11 +8,9 @@ import {
 } from "../../redux/actions/securityCheckActions";
 import StepList from "../../components/StepList";
 import { PuffLoader } from 'react-spinners';
-import Spinner from "../../components/Spinner/Spinner"; // Assuming Spinner component exists
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import {
-  defaultSecurityCheckResult,
   getScore,
   getScoreColor,
 } from "../../utils/helperFunctions"; // Utility function for score extraction
