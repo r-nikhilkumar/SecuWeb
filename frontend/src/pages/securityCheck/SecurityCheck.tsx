@@ -81,8 +81,9 @@ const SecurityCheck: React.FC = () => {
     setLoading(true); // Start spinner
     dispatch(startSecurityCheck()); // Dispatch action to start security check
 
-    const ws = new WebSocket("ws://localhost:3000");
-
+    // const ws = new WebSocket("ws://localhost:3000");
+    const ws = new WebSocket("wss://secuwebapi.onrender.com");
+    
     ws.onopen = () => {
       console.log("WebSocket connected.");
       ws.send(JSON.stringify({ url })); // Send URL to server for security check
